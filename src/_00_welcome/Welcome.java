@@ -8,9 +8,6 @@ import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
 
-//import javax.swing.JOptionPane;
-//import org.jointheleague.graphical.robot.Robot;
-
 public class Welcome {
 	public static void main(String[] args) {
 		Robot r2d2 = new Robot();

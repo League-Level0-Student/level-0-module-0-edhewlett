@@ -4,14 +4,21 @@ package _01_robot_square;
  *    Level 0
  */
 
+import javax.swing.JOptionPane;
+
 import org.jointheleague.graphical.robot.Robot;
+
+//import org.jointheleague.graphical.robot.Robot;
 
 // This recipe draws a square using the Robot
 
 public class RobotSquare {
-    public static void main(String[] args) throws Exception {
+	
+	public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
+		Robot r2d2 = new Robot();
+		JOptionPane.showMessageDialog(null, "WELCOME TO LEVEL 0!!");
 
 
         // 3. Put the robot's pen down
